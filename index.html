@@ -124,6 +124,7 @@
                     document.getElementById("message").textContent = "You lost! The word was: " + selectedWord;
                     document.getElementById("message").classList.remove("correct");
                     document.getElementById("message").classList.add("incorrect");
+                    location.reload();
                 }
 
                 updateWordDisplay();
@@ -134,10 +135,11 @@
         }
 
         updateWordDisplay();
+ 
     </script>
 
     <footer>
-        &copy All copy reserved to Miss Habiba
+        &copy All copy reserved to Miss Habiba 
     </footer>
 </body>
 </html>
